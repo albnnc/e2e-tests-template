@@ -1,11 +1,11 @@
 {
-  "name": "e2e-template",
-  "version": "1.0.0",
-  "description": "Шаблон для e2e тестов",
+  "name": "e2e-tests-template",
+  "version": "1.0.1",
+  "description": "Simple template for e2e testing using CasperJS",
   "scripts": {
     "test": "casperjs test --includes=src/common.js src/suites"
   },
-  "author": "a.kosyrev",
+  "author": "Alex Quot",
   "license": "MIT",
   "dependencies": {
     "casperjs": "^1.1.4",
