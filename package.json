@@ -1,0 +1,17 @@
+{
+  "name": "e2e-template",
+  "version": "1.0.0",
+  "description": "Шаблон для e2e тестов",
+  "scripts": {
+    "test": "casperjs test --includes=src/common.js src/suites"
+  },
+  "author": "a.kosyrev",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "phantomjs-prebuilt": "^2.1.14"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
