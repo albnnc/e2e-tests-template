@@ -37,7 +37,7 @@ const common = {
 
 if (common.config.shouldLog.clientLogs) {
   casper.on('remote.message', function (message) {
-    this.echo(message)
+    this.echo(message, 'COMMENT')
   })
 }
 
