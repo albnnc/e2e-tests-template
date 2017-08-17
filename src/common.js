@@ -1,10 +1,10 @@
 const common = {
 
   config: {
-    baseUrl: 'http://192.168.100.196:8280/cloud',
+    baseUrl: 'http://localhost:8080',
     shouldCapture: true,
     shouldLog: {
-      clientLogs: false,
+      clientLogs: true,
       clientErrors: true
     }
   },

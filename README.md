@@ -5,7 +5,7 @@
 
 ### Structure
 ```
-e2e-template
+e2e-tests-template
 |
 |-- README.md
 |-- package.json
